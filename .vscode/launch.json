@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch gateway",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "cool.datasnok.samples.microservices.gateway.GatewayApplication",
+      "projectName": "gateway",
+      "args": "",
+    },
+    {
+      "type": "java",
+      "name": "Launch stock",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "cool.datasnok.samples.microservices.stock.StockMicroservice",
+      "projectName": "stock",
+      "args": "",
+    },
+    {
+      "type": "java",
+      "name": "Launch user",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "cool.datasnok.samples.microservices.user.UserMicroservice",
+      "projectName": "user",
+      "args": "",
+    },
+  ]
+}
